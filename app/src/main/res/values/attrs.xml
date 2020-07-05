@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundCorner">
+        <attr name="topLeftCornerRadius" format="dimension" />
+        <attr name="topRightCornerRadius" format="dimension" />
+        <attr name="bottomLeftCornerRadius" format="dimension" />
+        <attr name="bottomRightCornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleShape">
+        <attr name="shape_borderWidth" format="dimension"/>
+        <attr name="shape_borderColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomViewShape">
+        <attr name="clip_drawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShapeOfView">
+        <attr name="shape_clip_drawable" format="reference"/>
+    </declare-styleable>
+
+</resources>
